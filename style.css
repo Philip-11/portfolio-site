@@ -1,0 +1,67 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    padding: 10px;
+}
+
+/* 
+For navigation
+*/
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.child-nav {
+    list-style: none;
+    margin: 10px;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.child-nav a {
+    text-decoration: none;
+}
+
+.main-heading {
+    padding: 10px;
+    margin: 0px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-heading h1 {
+    margin: 0;
+}
+
+.project-title {
+    margin: 10px;
+}
+
+.projects {
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.card {
+    border: 1px solid black;
+    padding: 10px;
+    padding-bottom: 15px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.card a {
+    text-decoration: none;
+    padding: 10px;
+    border: 1px black solid;
+    margin: 10px;
+    border-radius: 10px;
+}
